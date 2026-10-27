@@ -1,0 +1,6 @@
+# Keep the original SDK bundle locally; prerequisites are downloaded individually.
+/originals/AndroidSDK.7z
+/downloads/
+.DS_Store
+Thumbs.db
+Desktop.ini
