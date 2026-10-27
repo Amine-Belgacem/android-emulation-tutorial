@@ -2,7 +2,7 @@
 
 Set up the Android SDK, create virtual devices, and run the emulator from PowerShell without installing Android Studio.
 
-This guide retains the original **Windows 7 x64 Ultimate and PowerShell** environment, Java 8, and Android API 23/26 examples. Dependencies are downloaded individually. The original [HTML tutorial](originals/emulate_android.html) is included unchanged.
+This guide retains the original **Windows 7 x64 Ultimate and PowerShell** environment, Java 8, and Android API 23/26 examples. Dependencies are downloaded individually.
 
 ## Contents
 
@@ -220,7 +220,3 @@ emulator -help
 emulator -list-avds
 emulator -avd 'AVDName' -skin '320x480'
 ```
-
-## Original tutorial
-
-[emulate_android.html](originals/emulate_android.html) preserves the original document. This Markdown edition replaces the prepackaged downloads with individual sources and corrects command spelling and missing archive extensions. Its historical environment is retained; the emulator workflow has not been rerun as part of preparing this edition.
